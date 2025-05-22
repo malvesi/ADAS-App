@@ -1,0 +1,5 @@
+train: /content/data/images
+val: /content/data/images
+
+nc: 2
+names: ["traffic light", "stop sign"]

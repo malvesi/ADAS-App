@@ -1,0 +1,5 @@
+train: /content/data/images
+val: /content/data/images  # o una altra carpeta si tens dataset de validació separat
+
+nc: 2
+names: ["car", "motorcycle"]
