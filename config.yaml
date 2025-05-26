@@ -1,0 +1,36 @@
+# Arxiu amb paràmetres de main
+
+functionality:
+    vehicles: True
+    signs: True
+    use_gpu: False
+
+model_paths:
+  detect_vehicles: "Models/Detectvehicles.pt"
+  car_segment: "Models/CarSegment.pt"
+  brake_classifier: "Models/DetectBrake.pt"
+  traffic_signs: "Models/DetectSigns.pt"
+  traffic_lights: "Models/TrafficLightClass.pt"
+
+model_det_veh_param:
+    det_veh_conf: 0.25
+    det_veh_iou: 0.3
+    
+model_det_sig_param:
+    det_sig_conf: 0.25
+    det_sig_iou: 0.3
+    
+model_seg_car_param:
+    seg_car_conf: 0.2
+    seg_car_iou: 0.4
+
+model_cla_bra_param:
+    class_brake: 0.65
+
+set_up_vehicle:
+    height: 0.22
+    x_position: 0.333
+
+input:
+    picture: "p1.jpeg"
+    video: "v1.mp4"
