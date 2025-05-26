@@ -3,7 +3,7 @@
 functionality:
     vehicles: True
     signs: True
-    use_gpu: False
+    use_gpu: True
 
 model_paths:
   detect_vehicles: "Models/Detectvehicles.pt"
@@ -32,5 +32,5 @@ set_up_vehicle:
     x_position: 0.333
 
 input:
-    picture: "p1.jpeg"
+    picture: "P1.jpg"
     video: "v1.mp4"
