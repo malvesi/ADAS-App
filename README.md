@@ -28,7 +28,7 @@ Aplicación que usa 5 redes neuronales especializadas para realizar las siguient
 
 El vídeo o captura de imágenes pasará a ser filtrado por una serie de redes neuronales que identificarán cada uno de los elementos e irán dando los avisos pertinentes:
 
-![](resources\EsquemaMain.JPG)
+![](resources/EsquemaMain.JPG)
 
 ## Redes neuronales:
 
@@ -40,8 +40,8 @@ El vídeo o captura de imágenes pasará a ser filtrado por una serie de redes n
 
 ## Filtros aviso:
 
-![](resources\Filtros.JPG)
+![](resources/Filtros.JPG)
 
 ## Resultados entrenamiento:
 
-![](resources\results.JPG)
+![](resources/results.JPG)
